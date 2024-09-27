@@ -4,7 +4,6 @@ import Footer from "./Components/Footer.tsx";
 import { Home } from "./Components/Home/Home.tsx";
 import { Technologies } from "./Components/Technologies.tsx";
 import { About } from "./Components/About.tsx";
-import { Resume } from "./Components/Resume.tsx";
 import { Projects } from "./Components/Projects.tsx";
 import { MoveToTop } from "./Components/MoveToTop.tsx";
 import Lottie from "lottie-react";
