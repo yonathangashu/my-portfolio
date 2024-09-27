@@ -1,0 +1,91 @@
+.HomePage {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 80vh;
+  margin-top: 100px;
+  margin-bottom: -50px;
+  align-items: center;
+}
+.HomeText h1 {
+  font-weight: 600;
+  font-size: 58px;
+  letter-spacing: 0.7px;
+  padding-top: 10px;
+}
+
+.TypeEffect {
+  padding: 25px 0px;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.6px;
+}
+.homebtn {
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #633999;
+  color: #e7e7e7;
+  text-decoration: none;
+  border-radius: 5px;
+  border-style: none;
+  transition: all 0.5s;
+}
+
+.homebtn:hover {
+  transition: all 0.5s;
+  background-color: #e7e7e7;
+  color: #9067c6;
+}
+.illustration {
+  width: 425px;
+  height: 425px;
+}
+
+@media (max-width: 900px) {
+  .HomePage {
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    padding: 20px;
+  }
+  .HomeText {
+    text-align: left;
+    display: inline-block;
+  }
+
+  .illustration {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .HomePage {
+    min-height: 70vh;
+  }
+  .homebtn {
+    width: 130px;
+    height: 30px;
+  }
+  .NavbarLinks {
+    inset: 0 0 0 30%;
+  }
+  .HomeText h1 {
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .TypeEffect {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .illustration {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0px;
+  }
+}
