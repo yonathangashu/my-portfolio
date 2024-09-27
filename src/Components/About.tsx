@@ -2,7 +2,7 @@ import Tilt from "react-parallax-tilt";
 import Avatar from "../images/Avatar.png";
 import { CiCoffeeCup } from "react-icons/ci";
 
-const About = () => {
+export const About = () => {
   return (
     <div className="AboutPage">
       <div className="AboutText">
@@ -29,5 +29,3 @@ const About = () => {
     </div>
   );
 };
-
-export default About;

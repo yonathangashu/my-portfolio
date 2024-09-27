@@ -1,7 +1,6 @@
-import React from "react";
-import Skills from "./Skills.js";
+import { Skills } from "./Skills.js";
 
-const Technologies = () => {
+export const Technologies = () => {
   return (
     <>
       <h1 className="SkillsHeading">Professional Skillset</h1>
@@ -18,5 +17,3 @@ const Technologies = () => {
     </>
   );
 };
-
-export default Technologies;

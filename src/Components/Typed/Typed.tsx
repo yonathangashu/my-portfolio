@@ -1,15 +1,12 @@
-import React from "react";
 import Typewriter from "typewriter-effect";
+import styles from "./Typed.module.css";
 
-const Typed = () => {
+export const Typed = () => {
   return (
-    <div className="TypeEffect">
+    <div className={styles.TypeEffect}>
       <Typewriter
         options={{
-          strings: [
-            "Full Stack Engineer",
-            "Aspiring Game Developer",
-          ],
+          strings: ["Full Stack Engineer", "Aspiring Game Developer"],
           autoStart: true,
           loop: true,
           delay: 70,
@@ -19,5 +16,3 @@ const Typed = () => {
     </div>
   );
 };
-
-export default Typed;
