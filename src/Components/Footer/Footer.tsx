@@ -1,14 +1,14 @@
-import React from "react";
+import styles from "./Footer.module.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { CgFileDocument } from "react-icons/cg";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer>
       <h4>Developed by Yonathan Gashu</h4>
       <h4>Copyright &copy; 2024 YG</h4>
-      <div className="footerLinks">
+      <div className={styles.footerLinks}>
         <a href="https://github.com/yonnigashu" target="_blank">
           <FaGithub />
         </a>
@@ -28,5 +28,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

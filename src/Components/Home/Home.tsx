@@ -17,9 +17,7 @@ export const Home = () => {
             href="https://yonnigashu.github.io/resume/resume.pdf"
             target="_blank"
           >
-            <button className={styles.homebtn}>
-              <CgFileDocument /> Resume
-            </button>
+            <button className={styles.homebtn}>Resume</button>
           </a>
         </div>
 

@@ -1,3 +1,4 @@
+import styles from "./ProjectBox.module.css";
 import { FaGithub } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 
@@ -36,8 +37,12 @@ export const ProjectBox = ({ projectPhoto, projectName }: ProjectProps) => {
   const project = desc[projectName];
 
   return (
-    <div className="projectBox">
-      <img className="projectPhoto" src={projectPhoto} alt="Project display" />
+    <div className={styles.projectBox}>
+      <img
+        className={styles.projectPhoto}
+        src={projectPhoto}
+        alt="Project display"
+      />
       <div>
         <br />
         <h3>{projectName}</h3>
@@ -46,13 +51,13 @@ export const ProjectBox = ({ projectPhoto, projectName }: ProjectProps) => {
         <br />
         {project.github && (
           <a href={project.github} target="_blank" rel="noopener noreferrer">
-            <button className="projectbtn">
+            <button className={styles.projectbtn}>
               <FaGithub /> Github
             </button>
           </a>
         )}
         <a href={project.website} target="_blank" rel="noopener noreferrer">
-          <button className="projectbtn">
+          <button className={styles.projectbtn}>
             <CgFileDocument /> Demo
           </button>
         </a>

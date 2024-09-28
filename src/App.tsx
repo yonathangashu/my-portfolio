@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
-import Nav from "./Components/Navbar.tsx";
-import Footer from "./Components/Footer.tsx";
+import { Nav } from "./Components/Navbar/Navbar.tsx";
+import { Footer } from "./Components/Footer/Footer.tsx";
 import { Home } from "./Components/Home/Home.tsx";
-import { Technologies } from "./Components/Technologies.tsx";
-import { About } from "./Components/About.tsx";
-import { Projects } from "./Components/Projects.tsx";
+import { Technologies } from "./Components/Technologies/Technologies.tsx";
+import { Projects } from "./Components/Projects/Projects.tsx";
 import { MoveToTop } from "./Components/MoveToTop.tsx";
 import Lottie from "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";

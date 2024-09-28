@@ -1,3 +1,4 @@
+import styles from "./Skills.module.css";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaGithub, FaReact, FaJava, FaPython, FaUnity } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
@@ -25,7 +26,7 @@ export const Skills = ({ skill }: SkillsProps) => {
   };
 
   return (
-    <div title={skill} className="SkillBox">
+    <div title={skill} className={styles.SkillBox}>
       {icon[skill]}
     </div>
   );

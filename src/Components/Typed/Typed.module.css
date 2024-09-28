@@ -1,6 +1,14 @@
 .TypeEffect {
-  padding: 25px 0px;
+  padding: 20px 0px;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 26px;
   letter-spacing: 0.6px;
+}
+
+@media (max-width: 500px) {
+  .TypeEffect {
+    padding: 20px 0px;
+    font-weight: 500;
+    font-size: 24px;
+  }
 }
