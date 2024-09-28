@@ -1,28 +1,36 @@
 import styles from "./Skills.module.css";
 import { IoLogoCss3 } from "react-icons/io";
-import { FaGithub, FaReact, FaJava, FaPython, FaUnity } from "react-icons/fa";
-import { DiJavascript1 } from "react-icons/di";
+import {
+  FaGithub,
+  FaReact,
+  FaJava,
+  FaPython,
+  FaUnity,
+  FaNodeJs,
+} from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
 type SkillsProps = {
   skill:
     | "Java"
     | "Python"
-    | "Javascript"
+    | "Typescript"
     | "React"
     | "Github"
     | "CSS"
-    | "Unity";
+    | "Unity"
+    | "NodeJS";
 };
 
 export const Skills = ({ skill }: SkillsProps) => {
   const icon: Record<string, JSX.Element> = {
     Java: <FaJava />,
     Python: <FaPython />,
-    Javascript: <DiJavascript1 />,
+    Typescript: <SiTypescript />,
     React: <FaReact />,
-    Github: <FaGithub />,
     CSS: <IoLogoCss3 />,
     Unity: <FaUnity />,
+    NodeJS: <FaNodeJs />,
   };
 
   return (

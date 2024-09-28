@@ -11,9 +11,9 @@ export const Technologies = () => {
         <Skills skill="Java" />
         <Skills skill="CSS" />
         <Skills skill="React" />
-        <Skills skill="Github" />
-        <Skills skill="Javascript" />
+        <Skills skill="Typescript" />
         <Skills skill="Unity" />
+        <Skills skill="NodeJS" />
       </div>
     </>
   );
