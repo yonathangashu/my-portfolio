@@ -1,13 +1,6 @@
 import styles from "./Skills.module.css";
 import { IoLogoCss3 } from "react-icons/io";
-import {
-  FaGithub,
-  FaReact,
-  FaJava,
-  FaPython,
-  FaUnity,
-  FaNodeJs,
-} from "react-icons/fa";
+import { FaReact, FaJava, FaPython, FaUnity, FaNodeJs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 
 type SkillsProps = {

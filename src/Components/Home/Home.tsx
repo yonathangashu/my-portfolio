@@ -2,7 +2,6 @@ import styles from "./Home.module.css";
 import Lottie from "lottie-react";
 import SpaceBoy from "../../LottieFiles/SpaceBoy.json";
 import { Typed } from "../Typed/Typed.js";
-import { CgFileDocument } from "react-icons/cg";
 
 export const Home = () => {
   return (
