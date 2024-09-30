@@ -2,8 +2,8 @@
   align-items: center;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: -50px;
-  margin-top: 100px;
+  padding-bottom: -50px;
+  padding-top: 100px;
   min-height: 80vh;
 }
 
@@ -34,6 +34,7 @@
 .homebtn:hover {
   transition: all 0.5s;
   background-color: #e7e7e7;
+  box-shadow: 0 0 25px 5px #9067c6;
   color: #9067c6;
 }
 .illustration {
@@ -45,8 +46,7 @@
   .HomePage {
     display: block;
     text-align: center;
-    margin-top: 150px;
-    padding: 20px;
+    padding: 150px 20px 20px 20px;
   }
   .HomeText {
     display: flex;

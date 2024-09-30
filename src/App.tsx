@@ -4,7 +4,6 @@ import { Footer } from "./Components/Footer/Footer.tsx";
 import { Home } from "./Components/Home/Home.tsx";
 import { Technologies } from "./Components/Technologies/Technologies.tsx";
 import { Projects } from "./Components/Projects/Projects.tsx";
-import { MoveToTop } from "./Components/MoveToTop.tsx";
 import Lottie from "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
@@ -39,7 +38,6 @@ export function App() {
           <Lottie className="bgtemp" animationData={nightsky} loop={true} />
 
           <Nav />
-          <MoveToTop />
 
           <Home />
           {/**<About />**/}

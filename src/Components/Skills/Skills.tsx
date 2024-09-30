@@ -2,6 +2,7 @@ import styles from "./Skills.module.css";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaReact, FaJava, FaPython, FaUnity, FaNodeJs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
 
 type SkillsProps = {
   skill:
@@ -12,10 +13,12 @@ type SkillsProps = {
     | "Github"
     | "CSS"
     | "Unity"
-    | "NodeJS";
+    | "NodeJS"
+    | "CSharp";
+  text?: string;
 };
 
-export const Skills = ({ skill }: SkillsProps) => {
+export const Skills = ({ skill, text }: SkillsProps) => {
   const icon: Record<string, JSX.Element> = {
     Java: <FaJava />,
     Python: <FaPython />,
@@ -24,11 +27,13 @@ export const Skills = ({ skill }: SkillsProps) => {
     CSS: <IoLogoCss3 />,
     Unity: <FaUnity />,
     NodeJS: <FaNodeJs />,
+    CSharp: <TbBrandCSharp />,
   };
 
   return (
-    <div title={skill} className={styles.SkillBox}>
+    <div title={skill} className={text ? styles.textSkillBox : styles.SkillBox}>
       {icon[skill]}
+      {text && <span>{text}</span>}
     </div>
   );
 };

@@ -11,29 +11,67 @@
   margin: 0px 25px 50px 25px;
   transition: 0.5s;
 }
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
 .projectBox:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px 0 #431f47;
 }
 
 .projectPhoto {
-  display: block;
+  display: flex;
   width: 100%;
   margin: 20px 0px;
 }
 
+/** TECH LIST SECTION **/
+
+.technologies {
+  margin-top: 15px; /* Space above technologies section */
+  text-align: left; /* Align text to the left */
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+/** BUTTON SECTION**/
+
+.buttonContainer a {
+  display: flex; /* Make the anchor a flex container */
+  flex: 1; /* Allow it to grow and take full space */
+  text-decoration: none; /* Remove underline from link */
+}
+
 .projectbtn {
-  font-size: 20px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 40%;
-  margin: 25px 3% 0;
+  flex: 1; /* Allow buttons to take equal space */
+  margin: 0; /* Remove margins to avoid extra spacing */
+  padding: 10px; /* Adjust padding for better size */
+  font-size: 16px;
   border-radius: 5px;
   background-color: #64478a;
   color: #e7e7e7;
-  height: 30px;
+  height: 40px; /* Increase height for better click area */
   cursor: pointer;
   text-decoration: none;
-  border-style: none;
+  border: none; /* No border */
+  transition: all 0.5s;
+}
+
+.projectbtn:hover {
+  background-color: #e7e7e7;
+  box-shadow: 0 0 15px 5px #9067c6;
+  color: #9067c6;
 }

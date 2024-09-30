@@ -76,7 +76,7 @@
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .Navbar {
     width: 100%;
   }

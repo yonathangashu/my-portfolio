@@ -1,6 +1,5 @@
 import styles from "./Navbar.module.css";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson, BsCodeSlash } from "react-icons/bs";
 import { CgFileDocument } from "react-icons/cg";
@@ -56,19 +55,24 @@ export const Nav = () => {
 
       <ul className={styles.NavbarLinks}>
         <li onClick={hideMenu}>
-          <Link to="/">
+          <a href="#home">
             <AiOutlineHome /> Home
-          </Link>
+          </a>
         </li>
         <li onClick={hideMenu}>
-          <Link to="/About">
+          <a href="#skills">
+            <BsPerson /> Skills
+          </a>
+        </li>
+        <li onClick={hideMenu}>
+          <a href="#experience">
             <BsPerson /> Experience
-          </Link>
+          </a>
         </li>
         <li onClick={hideMenu}>
-          <Link to="/Project">
+          <a href="#projects">
             <BsCodeSlash /> Projects
-          </Link>
+          </a>
         </li>
         <li onClick={hideMenu}>
           <a

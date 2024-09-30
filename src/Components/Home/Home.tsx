@@ -6,7 +6,7 @@ import { Typed } from "../Typed/Typed.js";
 export const Home = () => {
   return (
     <div>
-      <div className={styles.HomePage}>
+      <div id="home" className={styles.HomePage}>
         <div className={styles.HomeText}>
           <h1>
             <b>YONATHAN GASHU</b>
