@@ -60,15 +60,16 @@ export const Nav = () => {
           </a>
         </li>
         <li onClick={hideMenu}>
-          <a href="#skills">
-            <BsPerson /> Skills
-          </a>
-        </li>
-        <li onClick={hideMenu}>
           <a href="#experience">
             <BsPerson /> Experience
           </a>
         </li>
+        <li onClick={hideMenu}>
+          <a href="#skills">
+            <BsPerson /> Skills
+          </a>
+        </li>
+
         <li onClick={hideMenu}>
           <a href="#projects">
             <BsCodeSlash /> Projects

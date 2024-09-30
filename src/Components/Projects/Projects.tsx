@@ -1,6 +1,5 @@
 import styles from "./Projects.module.css";
 import { ProjectBox } from "../ProjectBox/ProjectBox";
-import TindogImage from "../../images/TindogImage.png";
 
 export const Projects = () => {
   return (
@@ -9,7 +8,7 @@ export const Projects = () => {
         My <b>Projects</b>
       </h1>
       <div className={styles.project}>
-        <ProjectBox projectPhoto={TindogImage} projectName="ElderCircle" />
+        <ProjectBox projectName="ElderCircle" />
       </div>
     </div>
   );

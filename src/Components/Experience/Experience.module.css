@@ -1,0 +1,34 @@
+/* Experience.module.css */
+
+.ToggleButton {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-top: 5px; /* Adjust positioning */
+  padding: 5px;
+  transition: all 0.5s;
+}
+
+.ToggleButton:hover {
+  transform: scale(1.1);
+}
+
+.DropdownWrapper {
+  max-height: 0; /* Hidden by default */
+  overflow: hidden;
+  transition: max-height 0.4s; /* Smooth transition */
+}
+
+.DropdownWrapper.Open {
+  max-height: 500px;
+}
+
+.DropdownContent {
+  border-radius: 5px;
+}

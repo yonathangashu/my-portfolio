@@ -4,7 +4,9 @@ import { Skills } from "../Skills/Skills";
 export const Technologies = () => {
   return (
     <div id="skills">
-      <h1 className={styles.SkillsHeading}>Professional Skillset</h1>
+      <h1 className={styles.SkillsHeading}>
+        <b>Skills</b>
+      </h1>
 
       <div className={styles.skills}>
         <Skills skill="Java" />

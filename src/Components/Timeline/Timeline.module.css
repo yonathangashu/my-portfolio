@@ -1,0 +1,22 @@
+.TimelineHeading {
+  text-align: center;
+  padding: 50px 10px;
+  padding-top: 150px;
+  font-size: 52px;
+  letter-spacing: 0.6px;
+}
+
+.Timeline {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 500px;
+  width: 80%;
+}
+
+@media (max-width: 500px) {
+  .Timeline {
+    padding: 10px;
+  }
+}

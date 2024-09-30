@@ -7,6 +7,7 @@ import { Projects } from "./Components/Projects/Projects.tsx";
 import Lottie from "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
+import { Timeline } from "./Components/Timeline/index.ts";
 
 export function App() {
   const [Loading, SetLoading] = useState(true);
@@ -41,6 +42,7 @@ export function App() {
 
           <Home />
           {/**<About />**/}
+          <Timeline />
           <Technologies />
           <Projects />
 

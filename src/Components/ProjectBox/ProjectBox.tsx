@@ -5,7 +5,7 @@ import { Skills } from "../Skills";
 import { projectsDetails } from "./constants";
 
 type ProjectProps = {
-  projectPhoto: string;
+  projectPhoto?: string;
   projectName: keyof typeof projectsDetails;
 };
 
@@ -14,11 +14,13 @@ export const ProjectBox = ({ projectPhoto, projectName }: ProjectProps) => {
 
   return (
     <div className={styles.projectBox}>
-      <img
-        className={styles.projectPhoto}
-        src={projectPhoto}
-        alt="Project display"
-      />
+      {projectPhoto && (
+        <img
+          className={styles.projectPhoto}
+          src={projectPhoto}
+          alt="Project display"
+        />
+      )}
       <div>
         <br />
         <h3>{separateWords(projectName)}</h3>
