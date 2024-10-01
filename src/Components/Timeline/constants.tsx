@@ -1,10 +1,15 @@
 import { SiVerizon } from "react-icons/si";
-import { FaShieldAlt } from "react-icons/fa";
 
 export const experiences = [
   {
     company: "Department of Defense",
-    icon: <FaShieldAlt color="#9067c6" />,
+    icon: (
+      <img
+        src="https://www.defense.gov/Portals/1/Images/DOD-Icon-Header.png?ver=5sAfFl2--9znca0j3SrX_g%3d%3d"
+        width={40}
+        height={40}
+      />
+    ),
     title: "Artificial Intelligence Research Intern",
     subtitle: "Washington, DC",
     description: [
@@ -17,7 +22,13 @@ export const experiences = [
   },
   {
     company: "Department of Defense",
-    icon: <FaShieldAlt color="#9067c6" />,
+    icon: (
+      <img
+        src="https://www.defense.gov/Portals/1/Images/DOD-Icon-Header.png?ver=5sAfFl2--9znca0j3SrX_g%3d%3d"
+        width={40}
+        height={40}
+      />
+    ),
     title: "Software Engineering Intern",
     subtitle: "Washington, DC",
     description: [
