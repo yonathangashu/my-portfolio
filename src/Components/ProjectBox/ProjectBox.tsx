@@ -35,7 +35,7 @@ export const ProjectBox = ({ projectPhoto, projectName }: ProjectProps) => {
           <h4>Technologies:</h4>
           <div className={styles.techList}>
             {project.techList.map((skill, index) => (
-              <Skills key={index} skill={skill} text={skill} />
+              <Skills key={index} skill={skill} small={true} />
             ))}
           </div>
         </div>

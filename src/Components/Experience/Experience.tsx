@@ -23,7 +23,6 @@ export const Experience = ({
 }: ExperienceProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Toggle dropdown visibility
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };

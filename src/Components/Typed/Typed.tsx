@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import Typewriter from "typewriter-effect"; // Make sure to import Typewriter
-import styles from "./Typed.module.css"; // Adjust to your actual styles file
+import Typewriter from "typewriter-effect";
+import styles from "./Typed.module.css"; 
 
 export const Typed = () => {
   const baseStrings = [
@@ -8,14 +8,14 @@ export const Typed = () => {
     "Full Stack Engineer",
     "Game Dev Hobbyist",
   ];
-  const rareString = "Cat Lover (5% Chance!)";
+  const rareString = "Cat Lover (2% Chance!)";
 
   const [strings, setStrings] = useState(baseStrings);
 
   useEffect(() => {
     const randomChance = Math.random();
 
-    if (randomChance < 0.05) {
+    if (randomChance < 0.02) {
       setStrings([...baseStrings, rareString]);
     } else {
       setStrings(baseStrings);
@@ -29,7 +29,7 @@ export const Typed = () => {
           strings: strings,
           autoStart: true,
           loop: true,
-          delay: 70,
+          delay: 40,
           deleteSpeed: 20,
         }}
       />
