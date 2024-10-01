@@ -8,9 +8,10 @@
 .contactBtnContainer {
   align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  gap: 2%;
+  gap: 25px;
   padding-bottom: 10%;
   padding-top: 50px;
 }
