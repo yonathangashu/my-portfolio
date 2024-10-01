@@ -13,8 +13,3 @@
   gap: 25px;
   margin: 50px 10%;
 }
-@media (max-width: 500px) {
-  .SkillsHeading {
-    font-size: 26px;
-  }
-}

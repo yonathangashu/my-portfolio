@@ -3,6 +3,7 @@ import { Nav } from "./Components/Navbar/Navbar.tsx";
 import { Footer } from "./Components/Footer/Footer.tsx";
 import { Home } from "./Components/Home/Home.tsx";
 import { Technologies } from "./Components/Technologies/Technologies.tsx";
+import { Contact } from "./Components/Contact/Contacts.tsx";
 import { Projects } from "./Components/Projects/Projects.tsx";
 import Lottie from "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
@@ -45,6 +46,7 @@ export function App() {
           <Timeline />
           <Technologies />
           <Projects />
+          <Contact />
 
           <Footer />
         </div>

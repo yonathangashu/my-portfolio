@@ -2,7 +2,7 @@ import styles from "./Navbar.module.css";
 import { useState, useEffect } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson, BsCodeSlash } from "react-icons/bs";
-import { CgFileDocument } from "react-icons/cg";
+import { BsMailbox } from "react-icons/bs";
 
 export const Nav = () => {
   const [navbarblur, setnavbarblur] = useState(false);
@@ -76,11 +76,8 @@ export const Nav = () => {
           </a>
         </li>
         <li onClick={hideMenu}>
-          <a
-            href="https://yonnigashu.github.io/resume/resume.pdf"
-            target="_blank"
-          >
-            <CgFileDocument /> Resume
+          <a href="#contact">
+            <BsMailbox /> Contact
           </a>
         </li>
       </ul>
