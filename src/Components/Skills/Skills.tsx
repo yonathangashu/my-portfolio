@@ -40,7 +40,7 @@ export const Skills = ({ skill, small }: SkillsProps) => {
   };
 
   const handleMouseLeave = () => {
-    typwriterRef.current?.deleteAll(50).start();
+    typwriterRef.current?.deleteAll(35).start();
   };
 
   return (
@@ -62,7 +62,7 @@ export const Skills = ({ skill, small }: SkillsProps) => {
               autoStart: false,
               loop: false,
               cursor: "",
-              delay: 75,
+              delay: 35,
             }}
           />
         </div>
