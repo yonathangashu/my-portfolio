@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { GrMail } from "react-icons/gr";
+import { SiGmail } from "react-icons/si";
 import { CgFileDocument } from "react-icons/cg";
 
 export const Footer = () => {
@@ -15,8 +15,8 @@ export const Footer = () => {
         <a href="https://www.linkedin.com/in/ygashu/" target="_blank">
           <FaLinkedin />
         </a>
-        <a href="mailTo:yonathangashu@gmail.com" target="_blank">
-          <GrMail />
+        <a href="mailto:yonathangashu@gmail.com">
+          <SiGmail />
         </a>
         <a
           href="https://yonnigashu.github.io/resume/resume.pdf"

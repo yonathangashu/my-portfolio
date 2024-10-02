@@ -2,7 +2,7 @@ import styles from "./Experience.module.css";
 import { useState } from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FaInfoCircle, FaChevronUp } from "react-icons/fa";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 type ExperienceProps = {
   company: string;
@@ -43,10 +43,9 @@ export const Experience = ({
       <h5 className="vertical-timeline-element-subtitle">{subtitle}</h5>
 
       <button onClick={toggleDropdown} className={styles.ToggleButton}>
-        {isOpen ? <FaChevronUp /> : <FaInfoCircle />}
+        {isOpen ? <FaChevronUp /> : <FaChevronDown />}
       </button>
 
-      {/* Dropdown description */}
       <div className={`${styles.DropdownWrapper} ${isOpen ? styles.Open : ""}`}>
         <div className={styles.DropdownContent}>
           <ul>

@@ -19,7 +19,7 @@ export const Contact = () => {
             <FaLinkedin style={{ marginRight: "10px" }} /> LinkedIn
           </button>
         </a>
-        <a href="mailTo:yonathangashu@gmail.com" target="_blank">
+        <a href="mailto: yonathangashu@gmail.com">
           <button className={styles.contactBtn}>
             <SiGmail style={{ marginRight: "10px" }} /> E-Mail
           </button>
