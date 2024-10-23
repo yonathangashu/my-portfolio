@@ -9,6 +9,9 @@ export const Projects = () => {
       </h1>
       <div className={styles.project}>
         <ProjectBox projectName="ElderCircle" />
+        <ProjectBox
+          projectName="RayCaster"
+        />
       </div>
     </div>
   );

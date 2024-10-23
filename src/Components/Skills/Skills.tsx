@@ -2,7 +2,7 @@ import styles from "./Skills.module.css";
 import { useRef } from "react";
 import { IoLogoCss3 } from "react-icons/io";
 import { FaReact, FaJava, FaPython, FaUnity, FaNodeJs } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiCplusplus } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import Typewriter, { TypewriterClass } from "typewriter-effect";
 import typeStyles from "../Typed/Typed.module.css";
@@ -17,7 +17,8 @@ type SkillsProps = {
     | "CSS"
     | "Unity"
     | "NodeJS"
-    | "CSharp";
+    | "CSharp"
+    | "C++";
   small?: boolean;
 };
 
@@ -33,6 +34,7 @@ export const Skills = ({ skill, small }: SkillsProps) => {
     Unity: <FaUnity />,
     NodeJS: <FaNodeJs />,
     CSharp: <TbBrandCSharp />,
+    "C++": <SiCplusplus />,
   };
 
   const handleMouseEnter = () => {
