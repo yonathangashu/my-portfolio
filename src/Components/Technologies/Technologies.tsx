@@ -7,7 +7,7 @@ export const Technologies = () => {
       <h1 className={styles.SkillsHeading}>
         <b>Skills</b>
       </h1>
-
+      
       <div className={styles.skills}>
         <Skills skill="Java" />
         <Skills skill="Python" />
