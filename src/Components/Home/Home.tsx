@@ -13,7 +13,7 @@ export const Home = () => {
           </h1>
           <Typed />
           <a
-            href="https://yonnigashu.github.io/resume/resume.pdf"
+            href="https://yonathangashu.github.io/resume/resume.pdf"
             target="_blank"
           >
             <button className={styles.homebtn}>Resume</button>

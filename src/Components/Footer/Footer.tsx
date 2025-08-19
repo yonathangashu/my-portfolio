@@ -9,7 +9,7 @@ export const Footer = () => {
       <h4>Developed by Yonathan Gashu</h4>
       <h4>Copyright &copy; 2024 YG</h4>
       <div className={styles.footerLinks}>
-        <a href="https://github.com/yonnigashu" target="_blank">
+        <a href="https://github.com/yonathangashu" target="_blank">
           <FaGithub />
         </a>
         <a href="https://www.linkedin.com/in/ygashu/" target="_blank">
@@ -19,7 +19,7 @@ export const Footer = () => {
           <SiGmail />
         </a>
         <a
-          href="https://yonnigashu.github.io/resume/resume.pdf"
+          href="https://yonathangashu.github.io/resume/resume.pdf"
           target="_blank"
         >
           <CgFileDocument />

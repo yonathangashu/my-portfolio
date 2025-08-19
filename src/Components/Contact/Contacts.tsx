@@ -9,7 +9,7 @@ export const Contact = () => {
         <b>Contact</b> Me
       </h1>
       <div className={styles.contactBtnContainer}>
-        <a href="https://github.com/yonnigashu" target="_blank">
+        <a href="https://github.com/yonathangashu" target="_blank">
           <button className={styles.contactBtn}>
             <FaGithub style={{ marginRight: "10px" }} /> Github
           </button>
@@ -25,7 +25,7 @@ export const Contact = () => {
           </button>
         </a>
         <a
-          href="https://yonnigashu.github.io/resume/resume.pdf"
+          href="https://yonathangashu.github.io/resume/resume.pdf"
           target="_blank"
         >
           <button className={styles.contactBtn}>
